@@ -11,6 +11,7 @@ Source0: https://github.com/nikromen/woof/archive/refs/tags/%{version}.tar.gz
 BuildArch: noarch
 
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 
 %description
 %{summary}
