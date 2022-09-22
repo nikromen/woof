@@ -19,6 +19,9 @@ BuildRequires: python3-setuptools
 %prep
 %autosetup -n %{name}-%{version}
 
+%generate_buildrequires
+%pyproject_buildrequires
+
 %build
 %pyproject_wheel
 
