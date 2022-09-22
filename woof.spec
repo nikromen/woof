@@ -29,11 +29,11 @@ BuildRequires: python3-setuptools
 %pyproject_install
 
 %files
-%license LISENSE
+%license LICENSE
 %doc README.md
-%{_bindir}/hello
+%{_bindir}/woof
 %{python3_sitelib}/*
 
 %changelog
-* Thu Aug 22 2022 Jiri Kyjovsky <j1.kyjovsky@gmail.com> - 0.1.0-1
+* Thu Sep 22 2022 Jiri Kyjovsky <j1.kyjovsky@gmail.com> - 0.1.0-1
 - initial upstream release: 0.1.0
