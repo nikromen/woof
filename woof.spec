@@ -1,12 +1,12 @@
 Name:    woof
-Version: 0.1.0
+Version: 0.1.2
 Release: 1%{?dist}
 Summary: Dog translator
 
 License: MIT
 
 URL:     https://github.com/nikromen/woof/
-Source0: https://github.com/nikromen/woof/archive/refs/tags/%{version}.tar.gz
+Source0: https://github.com/nikromen/woof/archive/refs/tags/woof-%{version}.tar.gz
 
 BuildArch: noarch
 
@@ -23,7 +23,7 @@ BuildRequires: python3-setuptools
 %pyproject_buildrequires
 
 %build
-%pyproject_wheel
+exit 1
 
 %install
 %pyproject_install
