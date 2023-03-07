@@ -13,20 +13,22 @@ BuildArch: noarch
 BuildRequires: python3-devel
 BuildRequires: python3-setuptools
 
+
 %description
 %{summary}
 
-%prep
-%autosetup -n %{name}-%{version}
 
-%generate_buildrequires
-%pyproject_buildrequires
+%prep
+%autosetup
+
 
 %build
 %pyproject_wheel
 
+
 %install
 %pyproject_install
+
 
 %files
 %license LICENSE
