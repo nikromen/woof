@@ -10,8 +10,8 @@ Source0: https://github.com/nikromen/woof/archive/refs/tags/%{version}.tar.gz
 
 BuildArch: noarch
 
-BuildRequires: python3-devel
-BuildRequires: python3-setuptools
+BuildRequires:  gcc
+BuildRequires:  make
 
 
 %description
@@ -19,15 +19,16 @@ BuildRequires: python3-setuptools
 
 
 %prep
-%autosetup
+%setup -q
 
 
 %build
-%pyproject_wheel
+%configure
+%make_build
 
 
 %install
-%pyproject_install
+%make_install
 
 
 %files

@@ -1,0 +1,3 @@
+/home/jkyjovsk/Documents/git/github/nikromen/woof/cmake-build-debug/CMakeFiles/woof.dir
+/home/jkyjovsk/Documents/git/github/nikromen/woof/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jkyjovsk/Documents/git/github/nikromen/woof/cmake-build-debug/CMakeFiles/rebuild_cache.dir
