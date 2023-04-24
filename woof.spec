@@ -1,4 +1,4 @@
-Name:    woof
+Name:    woofik
 Version: 0.1.0
 Release: 1%{?dist}
 Summary: Dog translator
