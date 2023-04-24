@@ -1,4 +1,4 @@
-Name:    woof
+Name:    woofik
 Version: 0.1.0
 Release: 1%{?dist}
 Summary: Dog translator
@@ -34,7 +34,7 @@ BuildRequires:  make
 %files
 %license LICENSE
 %doc README.md
-%{_bindir}/woof
+%{_bindir}/woofik
 %{python3_sitelib}/*
 
 %changelog
